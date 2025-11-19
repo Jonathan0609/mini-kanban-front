@@ -10,9 +10,21 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@mantine/core": "^8.3.8",
+    "@mantine/form": "^8.3.8",
+    "@mantine/hooks": "^8.3.8",
+    "@mantine/modals": "^8.3.8",
+    "@mantine/notifications": "^8.3.8",
+    "@tabler/icons-react": "^3.35.0",
+    "@tanstack/react-query": "^5.90.10",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "axios": "^1.13.2",
+    "mantine-form-zod-resolver": "^1.3.0",
     "next": "16.0.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "19.2.0",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
@@ -20,6 +32,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "postcss": "^8.5.6",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
     "typescript": "^5"
   }
 }
