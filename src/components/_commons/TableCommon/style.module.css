@@ -1,0 +1,5 @@
+.scrollContainer {
+  & > div {
+    padding-bottom: 0px;
+  }
+}
